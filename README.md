@@ -1,81 +1,78 @@
 🛡️ Phishing Website Detection using Machine Learning
 
-This project is a machine learning-based phishing website detection system designed to identify malicious websites using cybersecurity-focused URL and domain features. The system analyzes website characteristics and applies multiple machine learning models to classify websites as legitimate or phishing with high accuracy.
+This project is a machine learning-based system that detects phishing websites using cybersecurity-focused URL and domain features. It analyzes website characteristics and applies multiple classification algorithms to distinguish between legitimate and malicious websites with high accuracy.
 
-The project demonstrates practical applications of machine learning, cybersecurity analysis, feature engineering, and model optimization using real-world phishing datasets.
+The project demonstrates the application of machine learning in cybersecurity, including feature engineering, model training, and performance evaluation using real-world phishing datasets.
 
 📌 Key Features
 
-* Detection of phishing websites using machine learning algorithms
-* Analysis of 11,000+ website samples with 30+ security-related features
-* Implementation and comparison of multiple classification models
-* High-accuracy phishing detection using optimized machine learning techniques
-* Evaluation of model performance using industry-standard metrics
-* Feature engineering and preprocessing for improved prediction accuracy
+- Detection of phishing websites using machine learning models  
+- Analysis of 11,000+ website samples with 30+ security-related features  
+- Implementation and comparison of multiple classification algorithms  
+- High-accuracy phishing detection using optimized ML techniques  
+- Evaluation using standard classification metrics  
+- Feature engineering and preprocessing for improved model performance  
 
 🛠️ Technologies Used
 
-* Python
-* Scikit-learn
-* Pandas
-* NumPy
-* Machine Learning
-* Logistic Regression
-* Decision Tree
-* Random Forest
-* Support Vector Machine SVM
-* Google Colab or Jupyter Notebook
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Jupyter Notebook / Google Colab  
 
-🧠 Machine Learning Models Implemented
+🧠 Machine Learning Models
 
-* Logistic Regression
-* Decision Tree Classifier
-* Random Forest Classifier
-* Support Vector Machine SVM
+- Logistic Regression  
+- Decision Tree Classifier  
+- Random Forest Classifier  
+- Support Vector Machine (SVM)  
 
-The models were trained and evaluated to compare classification performance and optimize phishing detection accuracy.
+These models were trained and compared to identify the best-performing approach for phishing detection.
 
 📊 Model Performance
 
-* Achieved 96.9% accuracy using the Random Forest model
-* Evaluated models using:
+- Best Model: Random Forest Classifier  
+- Accuracy: 96.9%  
 
-  * Accuracy
-  * Precision
-  * Recall
-  * F1-Score
-  * Confusion Matrix Analysis
+Evaluation metrics:
+- Accuracy  
+- Precision  
+- Recall  
+- F1-Score  
+- Confusion Matrix  
 
-The Random Forest model produced the best overall performance while minimizing false negatives in phishing detection.
+The Random Forest model provided the best overall performance with strong generalization and reduced false negatives, which is critical for phishing detection.
 
 🔍 Dataset Information
 
-* 11,000+ phishing and legitimate website samples
-* 30+ extracted cybersecurity and URL-based features
-* Features included:
+- 11,000+ phishing and legitimate website samples  
+- 30+ extracted URL and domain-based features  
 
-  * URL structure analysis
-  * HTTPS and SSL indicators
-  * Domain information
-  * Website security characteristics
+Key features:
+- URL structure analysis  
+- HTTPS and SSL indicators  
+- Domain-based attributes  
+- Website security characteristics  
 
 ⚙️ Project Workflow
 
-* Data collection and preprocessing
-* Feature extraction and selection
-* Model training and testing
-* Hyperparameter tuning and optimization
-* Model evaluation and comparison
-* Performance analysis and visualization
+1. Data collection and loading  
+2. Data preprocessing  
+3. Feature engineering and selection  
+4. Model training and testing  
+5. Hyperparameter tuning  
+6. Model evaluation and comparison  
+7. Performance analysis  
 
 🚀 Future Improvements
 
-* Deploy the model as a real-time phishing detection web application
-* Integrate browser extension support for live website analysis
-* Expand dataset size for improved generalization
-* Implement deep learning approaches for advanced detection
-* Add real-time API integration for cybersecurity monitoring
+- Deploy as a real-time phishing detection web application  
+- Develop a browser extension for live URL scanning  
+- Expand dataset for better generalization  
+- Implement deep learning-based models  
+- Integrate real-time threat detection APIs  
 
 ⭐ About This Project
 
-This project was developed to explore the intersection of machine learning and cybersecurity by building an intelligent phishing website detection system. It highlights practical machine learning implementation, model optimization, and real-world cybersecurity problem solving using Python and Scikit-learn.
+This project explores the use of machine learning in cybersecurity by building an intelligent phishing website detection system. It demonstrates practical implementation of classification algorithms, feature engineering, and model optimization using Python and Scikit-learn.
